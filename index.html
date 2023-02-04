@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<button type="button" onclick="window.location.href='../page/about'">关于我们</button>
+<title>萃文中学东教学部学生会数据库</title>
+</head>
+<body>
+    <style>
+        body
+        {
+        background-color: lightgoldenrodyellow;
+        width: 1225px;
+        border: 25px solid #c83c23;
+        padding: 25px;
+        margin: 25px;
+        }
+        p
+        {
+            color:black;
+            /*颜色黑*/
+            text-align:left;
+            /*字居左*/
+        } 
+        h1
+        {
+            color:goldenrod;
+            /*颜色深黄*/
+            text-align: center;
+        }
+    </style>
+<h1>数据库</h1>
+<p>秘书处
+    <button type="button" onclick="window.location.href='../page/msc'">入口</button>
+</p>
+<p>文明礼仪执行部
+    <button type="button" onclick="window.location.href='../page/wmlyzxb'">入口</button>
+</p>
+<h2>Windows帮、机械斑鸠附属Twikoo评论系统</h2>
+<h3>Comment</h3>
+<head>
+    <!-- ... -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@waline/client@v2/dist/waline.css"
+    />
+    <!-- ... -->
+  </head>
+  <body>
+    <!-- ... -->
+    <div id="waline"></div>
+    <script type="module">
+      import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
+  
+      init({
+        el: '#waline',
+        serverURL: 'https://waline.windowsbang.cn',
+      });
+    </script>
+  </body>
+  
+</body>
+</html>
